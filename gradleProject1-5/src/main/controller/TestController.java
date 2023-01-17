@@ -14,9 +14,9 @@ public class TestController {
 	public String test1(Model model) {
 		
 		model.addAttribute("testMsg", "Thymeleaf Test . ");
-		  
+		
+		return "test1";
 	}  
-	  
 	
 } 
 
